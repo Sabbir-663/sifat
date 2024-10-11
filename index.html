@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-6</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class=" md:w-10/12 w-11/12 mx-auto py-10">
+        <nav class="flex items-center justify-between ">
+            <div class="flex md:gap-3 gap-1">
+                <img class="" src="images/logo.webp" alt="">
+                <h3 class="md:text-2xl font-bold"> Peddy</h3>
+            </div>
+            <div class="flex md:gap-4 gap-1">
+                <a class="md:text-lg font-medium text-stone-500 hover:text-red-500">Home</a>
+                <a class="md:text-lg font-medium text-stone-500 hover:text-red-500" href="">Shop</a>
+                <a class="md:text-lg font-medium text-stone-500 hover:text-red-500" href="">Contact</a>
+            </div>
+            <div class="border border-black rounded-full p-1">
+                <img class="" src="https://img.icons8.com/?size=32&id=43942&format=png" alt="">
+            </div>
+        </nav>
+    </header>
+    <main>
+<!-- Path To adoption -->
+
+        <section class="md:w-3/5 w-4/5 mx-auto">
+            <div class="flex align-center justify-center items-center mb-2">
+                <p class=" lg:text-xl font-medium text-stone-600 text-center ">Bringing Families Together</p>
+               <div>
+                <img class="h-1/2 w-1/2" src="https://img.icons8.com/?size=48&id=QV5JEtrTP6nH&format=png" alt="">
+               </div>
+            </div>
+            <div>
+                <p class="lg:text-6xl text-2xl md:text-4xl font-bold text-center md:mb-4 mb-2">Your Path to Adoption Starts Here</p>
+            </div>
+            <div class="lg:w-4/5 mx-auto mb-2 md:mb-4">
+                <p class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+            </div>
+            <div class=" flex justify-center mb-2 md:mb-4">
+                <a class="px-3 py-2 rounded-md bg-[#0E7A81] text-white font-medium hover:bg-red-300" href="#adopt-container" > View More</a>
+               
+            </div>
+            <div class="mb-4 md:mb-8 flex justify-center">
+                <img src="images/pet.webp" alt="">
+            </div>
+        </section>
+
+        <!-- Best Friend -->
+
+        <section class="md:w-3/5 w-4/5 mx-auto">
+            <div>
+                <p class=" text-xl md:text-3xl font-bold text-center md:mb-4 mb-2">Adopt  Your  Best Friend</p>
+            </div>
+            <div class="lg:w-4/5 mx-auto mb-2 md:mb-4">
+                <p class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+            </div>
+        </section>
+<!-- main Cards sections -->
+
+        <section class="md:w-10/12 w-11/12 mx-auto ">
+            <div id="button-container" class="md:flex justify-between">
+
+            </div>
+
+            <div id="adopt-container" class="flex  justify-between my-4">
+                <p class="font-bold md:text-xl">Best Deal For you</p>
+                <button id="sort-btn" class="font-semibold text-normal md:text-lg text-white bg-[#0E7A81] md:p-2 p-1 rounded-md hover:bg-red-300">Sort By Price</button>
+            </div>
+
+        </section>
+
+        <!-- l -->
+    
+        <div id="loading" class="hidden flex justify-center items-center">
+            <span class="loading loading-spinner loading-lg"></span>
+          </div>
+      
+
+        <section  class="md:w-10/12 w-11/12 mx-auto m-4 lg:flex gap-2 space-y-5 lg:space-x-5 md:space-y-5">
+
+            <!-- Cards Section -->
+             <div id="cards-container" class="border-black-100 grid lg:grid-cols-3 md:grid-cols-2 lg:gap-5 md:gap-5 space-y-5 lg:space-y-0 md:space-y-0 lg:w-8/12" > 
+
+             </div>
+
+             <div class="lg:w-4/12">
+
+            
+                <div id="liked-container" class="md:grid md:grid-cols-2 gap-2 md:m-[-18px] border border-black-100">
+    
+    
+                    <!-- Copy to Js -->
+                    
+                  
+                    
+                    <!-- End -->
+                    
+                    </div>
+               
+            </div>
+        </section>
+
+      
+    </main>
+
+    <!-- Footer Section -->
+
+    <footer class="bg-[#131313]  py-10"> 
+        <section class="w-10/12 mx-auto  md:flex justify-between ">
+            <div class="mb-4">
+                <div class="flex md:gap-3 gap-1 mb-2 md:mb-3">
+                    <img class="" src="images/logo.webp" alt="">
+                    <h3 class="md:text-2xl font-bold text-[#FFFFFF]"> Peddy</h3>
+    
+                </div>
+                <p class="text-sm mb-1 text-[#FFFFFFE6]">Location: av. Washington 165, NY CA 54003 <br>
+                    Phone: +31 85 964 47 25 <br>
+                    Email: info@yourdomain.com <br>
+                    Openings hours: 9.00 AM - 5.00 PM
+                </p>
+                <div class="flex gap-2">
+                      <a href="https://www.facebook.com/">
+                    <img class="w-[25px]" src="https://img.icons8.com/?size=48&id=uLWV5A9vXIPu&format=png" alt="">
+                </a>
+                      <a href="https://x.com/">
+                    <img class="w-[25px] " src="https://img.icons8.com/?size=48&id=ClbD5JTFM7FA&format=png" alt="">
+                </a>
+                      <a href="https://www.youtube.com/">
+                    <img class="w-[25px]" src="https://img.icons8.com/?size=48&id=9a46bTk3awwI&format=png" alt="">
+                </a>
+                      <a href="https://www.instagram.com/">
+                    <img class="w-[25px]" src="https://img.icons8.com/?size=48&id=32323&format=png" alt="">
+                </a>
+                </div>
+
+            </div>
+            <div class="flex  flex-col mb-4 ">
+                <p class="font-medium text-base mb-2 md:mb-3 text-[#FFFFFF]">Useful Links</p>
+              
+                <a class="text-sm text-[#FFFFFF99] hover:text-red-500" href="">Home</a>
+                <a class="text-sm text-[#FFFFFF99] hover:text-red-500" href="">About Us</a>
+                <a class="text-sm text-[#FFFFFF99] hover:text-red-500" href="">Foundation</a>
+                <a class="text-sm text-[#FFFFFF99] hover:text-red-500" href="">Animals</a>
+                <a class="text-sm text-[#FFFFFF99] hover:text-red-500" href="">Contact</a>
+            </div>
+            <div>
+                <p class="font-medium text-base mb-2 md:mb-3 text-[#FFFFFF]">Drop a message</p>
+                <input class="py-2 pl-2 pr-6 bg-slate-300 text-sm rounded-md mb-4 hover:bg-slate-50" placeholder="Enter your email" type="text">
+               
+                <div class="  mb-2 md:mb-4 w-full">
+                    <a class="py-2 px-[60px] rounded-md bg-[#0E7A81] text-white font-medium text-md" href="" class=""> Subscribe</a>
+                   
+                </div>
+            </div>
+        </section>
+<div id="modal-details">
+<!-- Open the modal using ID.showModal() method -->
+<div id="congrats-modal-details"></div>
+</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
